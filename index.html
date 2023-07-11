@@ -24,7 +24,7 @@
               <p>I'm a third-year PhD student at ZJU, advised by <a href="https://sites.google.com/view/wenguanwang"></a>Prof.Wenguan Wang</a> and <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN">Prof.Yi Yang</a>. I got my B.S. from SSE, Tongji Univ. in 2020.
               </p>
               <p style="text-align:center">
-                <a href="mailto:leonnnop@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="mailto:leonliang.cc@gmail.com">Email</a> &nbsp/&nbsp
                 <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
                 <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
                 <a href="https://scholar.google.com/citations?user=pfU6XB8AAAAJ">Google Scholar</a> &nbsp/&nbsp
@@ -42,10 +42,58 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in machine learning, computer vision, video semantics and robotics. Feel free to <a href="mailto:leonnnop@gmail.com">contact me</a> if there is any question on my research.
+                I'm interested in machine vision and Embodied AI. Feel free to <a href="mailto:leonnnop@gmail.com">contact me</a> if there is any question on my research.
               </p>
             </td>
           </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="locater_stop()" onmouseover="locater_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='locater_image'>
+                  <img src='images/LOCATER_1.png' width="240">
+                </div>
+                <div style="display: flex; align-items: center;">
+                  <img src='images/LOCATER_1.png' width="240">
+                </div>
+              </div>
+              <script type="text/javascript">
+                function locater_start() {
+                  document.getElementById('locater_image').style.opacity = "1";
+                }
+
+                function locater_stop() {
+                  document.getElementById('locater_image').style.opacity = "0";
+                }
+                locater_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/10083244/">
+              <papertitle>Local-Global Context Aware Transformer for Language-Guided Video Segmentation</papertitle>
+              </a>
+              <br>
+              <strong>Chen Liang</strong>,
+              <a href="https://sites.google.com/view/wenguanwang/">Wenguan Wang</a>,
+              <a href="https://www.tfzhou.com/">Tianfei Zhou</a>,
+              <a href="https://scholar.google.com/citations?user=kQ-FWd8AAAAJ&hl=en">Jiaxu Miao</a>,
+              <a href="https://scholar.google.com/citations?user=pnVwaGsAAAAJ&hl=zh-CN">Yawei Luo</a>,
+              <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ&hl=zh-CN">Yi Yang</a>
+              <br>
+              <em>TPAMI</em>, 2023
+              <br>
+              <a href="https://arxiv.org/abs/2203.09773">arXiv</a>
+              /
+              <a href="https://github.com/leonnnop/Locater">dataset</a>
+              /
+              <a href="https://github.com/leonnnop/Locater">code</a>
+              <p></p>
+              <p>A new model that incorporates finite memory to align both the short-term and long-term video context with the language expression in an efficient manner.</p>
+            </td>
+
         </tbody></table>
 
 
